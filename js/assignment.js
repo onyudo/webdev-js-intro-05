@@ -1,3 +1,4 @@
+
 "use strict";
 
 const todos = [
@@ -39,8 +40,8 @@ function removeFirstValue() {
 }
 
 function addShiftAndPopValues() {
-    todos.push(popValue);
     todos.push(shiftValue);
+    todos.push(popValue);
 }
 
 function updateAnswerFour() {
