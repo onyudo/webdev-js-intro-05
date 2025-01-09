@@ -40,8 +40,7 @@ function removeFirstValue() {
 }
 
 function addShiftAndPopValues() {
-    todos.push(shiftValue);
-    todos.push(popValue);
+    todos.push(shiftValue, popValue);
 }
 
 function updateAnswerFour() {
